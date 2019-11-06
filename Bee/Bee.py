@@ -43,7 +43,7 @@ ax1.set_title('SalePrice Distribution')
 stats.probplot(iowa_train['SalePrice'], plot=plt)
 plt.show()
 #this is right skewed (violating assumptions of linear regression) so we will need to normalize. 
-#-> power transformation(rightskew -> power >1) or log transformation or box cox? 
+#-> power transformation(rightskew -> power >1) or log transformation or box cox?
 
 #types of variables 
 np.unique(iowa_train.dtypes)
